@@ -1,0 +1,31 @@
+# Node modules
+**/node_modules/
+**/npm-debug.log
+
+# SQLite database
+backend/database.sqlite
+
+# Environment and system files
+.env
+*.log
+.DS_Store
+*.swp
+*.swo
+
+# Expo & React Native
+.expo/
+.expo-shared/
+web-build/
+dist/
+build/
+ios/
+android/
+*.keystore
+
+# VSCode and IDEs
+.vscode/
+.idea/
+*.iml
+
+# Expo cache
+**/.expo/*

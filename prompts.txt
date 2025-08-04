@@ -1,0 +1,8 @@
+Prompt: "How can I implement JWT authentication in an Express.js app with a SQLite database?"
+Claude: Advised using the jsonwebtoken library for creating tokens and explained verifying them in middleware. Also suggested hashing passwords with bcrypt and storing user records in SQLite.
+Prompt: "What's the best way to ensure each user can only vote once per item in a SQL database?"
+Claude: Suggested using a separate votes table with a composite unique key on (user_id, item_id) to prevent duplicate votes, and checking for an existing vote before inserting a new one.
+Prompt: "In React Native, how do I call my local Express API from an Android emulator?"
+Claude: Explained that for Android emulator, use the special IP 10.0.2.2 to reach localhost, and mentioned configuring Android network security to allow HTTP (cleartext) traffic during development.
+Prompt: "Can you help me structure a React Native app with login and a list detail view?"
+Claude: Provided an outline for using multiple screens (Login, Register, Main) and passing a token upon login. Suggested using state or context to switch screens and storing the token, as well as using Fetch API for network requests.
